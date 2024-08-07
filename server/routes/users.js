@@ -10,7 +10,7 @@ router.get("/:id/friends", verifyToken, getUserFriends)
 router.get("/:id/schools", verifyToken, getUserSchools)
 
 /* UPDATE */
-router.patch("/:id/friendId", verifyToken, addRemoveFriend)
-router.patch("/:id/schoolId", verifyToken, addRemoveSchool)
+router.patch("/:id/:friendId", verifyToken, addRemoveFriend)
+router.patch("/:id/:schoolId", verifyToken, addRemoveSchool)
 
 export default router
