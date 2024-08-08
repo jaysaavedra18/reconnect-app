@@ -180,5 +180,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Acknowledgements
 
 - Special thanks to the developers of the open-source libraries used in this project.
-
-Feel free to add, modify, or remove any sections as needed!
